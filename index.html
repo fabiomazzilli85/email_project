@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Posta Elettronica | Fabilli</title>
+</head>
+<body>
+
+    <header>
+        <div class="header_margin">
+            <img class="logo" src="logo.png" alt="Logo Email">
+            <span class="name_logo">Posta Elettronica Fabilli</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="margin_header">
+                <h2 class="welcome_margin">Bentornato nel tuo account di posta elettronica</h2>
+                <h2>Hai <span class="unread">14</span> messaggi da leggere</h2>
+            </div>
+
+            <!-- Qui ho creato l'intestazione delle email, specificando il Mittente, l'Oggetto del Messaggio e naturalmente il Messaggio. -->
+            <div class="background_header">
+                <div class="sender_header black_header">Mittente</div>
+                <div class="object_header black_header">Oggetto</div>
+                <div class="message_header black_header">Messaggio</div>
+                <div class="read_header black_header">Clicca per leggere</div>
+            </div>
+
+            <!-- Qui simulo, attravero il tag div, la ricezione di alcune email, che vengono visualizzate nel flusso precedentemente creato con il Mittente, l'Oggetto del Messaggio e il Messaggio. -->
+            <div>
+                <div class="sender_header email_font">Fabio M.</div>
+                <div class="object_header email_font">Notifica</div>
+                <div class="message_header email_font">Ho ricevuto il contratto!</div>
+                <a class="read_header email_font" href="#">&darr;</a>
+            </div>
+
+            <div>
+                <div class="sender_header email_font">Gianluca M.</div>
+                <div class="object_header email_font">Pizza Stasera</div>
+                <div class="message_header email_font">Pizza e film da te?</div>
+                <a class="read_header" href="#">&darr;</a>
+            </div>
+
+            <div>
+                <div class="sender_header email_font">Giorgio A.</div>
+                <div class="object_header email_font">Appuntamento</div>
+                <div class="message_header email_font">Appuntamento disdetto: sono raffreddato.</div>
+                <a class="read_header email_font" href="#">&darr;</a>
+            </div>
+
+            <div>
+                <div class="sender_header email_font">Samuele A.</div>
+                <div class="object_header email_font">Affitto</div>
+                <div class="message_header email_font">Passo a riscuotere l'affitto</div>
+                <a class="read_header email_font" href="#">&darr;</a>
+            </div>
+
+            <div>
+                <div class="sender_header email_font">Silvio B.</div>
+                <div class="object_header email_font">Diffida avvocato</div>
+                <div class="message_header email_font">Hai ricevuto una diffida ufficiale.</div>
+                <a class="read_header email_font" href="#">&darr;</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Realizzato con affetto da Fabio Mazzilli, studente Boolean, che anziché farsi una vita passa la sera a scrivere HTML e CSS, cosa che lo rende felice.
+        </p> 
+    </footer>
+</body>
+</html>
